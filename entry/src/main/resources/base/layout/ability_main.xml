@@ -8,8 +8,8 @@
     ohos:orientation="vertical">
 
     <Image
-        ohos:height="200vp"
-        ohos:width="200vp"
+        ohos:height="350vp"
+        ohos:width="350vp"
         ohos:id="$+id:current"
         ohos:margin="1vp"
         ohos:layout_alignment="center"
