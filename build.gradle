@@ -1,0 +1,54 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+    signingConfigs {
+        release {
+            storeFile file('D:\\HarmonyKey\\idedemokey.p12')
+            storePassword '00000018E63B1A32E628C6EFA0B5549007202DB9B77DF66FD48A1FB9231288FEFC63E961F7C8E16B'
+            keyAlias = 'ide_demo_app'
+            keyPassword '000000186C5274532F65CD1656103770153637563C5595F24DFE1237E8B0C4ED75FF943F9097D024'
+            signAlg = 'SHA256withECDSA'
+            profile file('D:\\HarmonyKey\\prof1Release.p7b')
+            certpath file('D:\\HarmonyKey\\个人应用开发2.cer')
+        }
+        debug {
+            storeFile file('D:\\HarmonyKey\\idedemokey.p12')
+            storePassword '00000018D3AC4E0B99F3414C09B484D34C59EEB70F70B00735CFCC450505EF6E1E92CB536D55B9B6'
+            keyAlias = 'ide_demo_app'
+            keyPassword '000000188626894220A971A141F5B904114295BA5DD52C932D0E684180B4A04F9B656F5F4A77E3FB'
+            signAlg = 'SHA256withECDSA'
+            profile file('D:\\HarmonyKey\\prof1Release.p7b')
+            certpath file('D:\\HarmonyKey\\个人应用开发2.cer')
+        }
+    }
+    compileSdkVersion 6
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:3.1.0.5'
+        classpath 'com.huawei.ohos:decctest:1.2.7.11'
+        classpath 'com.huawei.agconnect:agcp-harmony:1.0.0.300'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+}

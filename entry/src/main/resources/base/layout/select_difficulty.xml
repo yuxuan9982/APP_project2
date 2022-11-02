@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+    <RadioContainer
+        ohos:id="$+id:ratio"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alignment="center"
+        >
+
+        <RadioButton
+            ohos:id="$+id:two"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="2X2"
+            ohos:text_size="20vp"
+            ohos:marked="false"
+            ohos:background_element="blue"
+            ohos:layout_alignment="center"
+            />
+
+
+        <RadioButton
+            ohos:id="$+id:three"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="3X3"
+            ohos:text_size="20vp"
+            ohos:marked="false"
+            ohos:background_element="blue"
+            ohos:layout_alignment="center"/>
+
+        <RadioButton
+            ohos:id="$+id:four"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="4X4"
+            ohos:text_size="20vp"
+            ohos:marked="false"
+            ohos:background_element="blue"
+            ohos:layout_alignment="center"/>
+        <RadioButton
+            ohos:id="$+id:five"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="5X5"
+            ohos:text_size="20vp"
+            ohos:marked="false"
+            ohos:background_element="blue"
+            ohos:layout_alignment="center"/>
+
+        <RadioButton
+            ohos:id="$+id:six"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="6X6"
+            ohos:text_size="20vp"
+            ohos:marked="false"
+            ohos:background_element="blue"
+            ohos:layout_alignment="center"/>
+        <RadioButton
+            ohos:id="$+id:seven"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="7X7"
+            ohos:text_size="20vp"
+            ohos:marked="false"
+            ohos:background_element="blue"
+            ohos:layout_alignment="center"/>
+        <RadioButton
+            ohos:id="$+id:eight"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="8X8"
+            ohos:text_size="20vp"
+            ohos:marked="false"
+            ohos:background_element="blue"
+            ohos:layout_alignment="center"/>
+        <RadioButton
+            ohos:id="$+id:nine"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="9X9"
+            ohos:text_size="20vp"
+            ohos:marked="false"
+            ohos:background_element="blue"
+            ohos:layout_alignment="center"/>
+        <RadioButton
+            ohos:id="$+id:ten"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="10X10"
+            ohos:text_size="20vp"
+            ohos:marked="false"
+            ohos:background_element="blue"
+            ohos:layout_alignment="center"/>
+
+    </RadioContainer>
+</DirectionalLayout>

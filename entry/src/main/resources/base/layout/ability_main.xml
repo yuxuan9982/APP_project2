@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center"
+    ohos:background_element="$media:bg3"
+    ohos:orientation="vertical">
+
+    <Image
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:id="$+id:current"
+        ohos:margin="1vp"
+        ohos:layout_alignment="center"
+        ohos:image_src="$media:question2"
+        ohos:padding="20vp"
+        ohos:scale_mode="stretch"
+        />
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+
+        <Button
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:begin"
+            ohos:text="开始拼图"
+            ohos:text_size="20vp"
+            ohos:layout_alignment="top"
+            ohos:background_element="$graphic:beautiful_button"
+            ohos:top_margin="40vp"
+            ohos:padding="10vp"
+            />
+        <Button
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:select"
+            ohos:text="选择难度"
+            ohos:text_size="20vp"
+            ohos:layout_alignment="top"
+            ohos:text_color="#FF0A0A0A"
+            ohos:background_element="$graphic:beautiful_button"
+            ohos:top_margin="40vp"
+            ohos:padding="10vp"
+            ohos:left_margin="20vp"
+            />
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+
+        <Button
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:PhotoAlbum"
+            ohos:text="相册选择"
+            ohos:text_size="20vp"
+            ohos:layout_alignment="top"
+            ohos:text_color="#FF0A0A0A"
+            ohos:background_element="$graphic:beautiful_button"
+            ohos:top_margin="40vp"
+            ohos:padding="10vp"
+            />
+        <Button
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:TakePhoto"
+            ohos:text="拍照选择"
+            ohos:text_size="20vp"
+            ohos:layout_alignment="top"
+            ohos:text_color="#FF0A0A0A"
+            ohos:background_element="$graphic:beautiful_button"
+            ohos:top_margin="40vp"
+            ohos:padding="10vp"
+            ohos:left_margin="20vp"
+            />
+
+    </DirectionalLayout>
+    <ListContainer
+        ohos:id="$+id:ListContainer"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:left_margin="10vp"
+        ohos:top_margin="20vp"
+        />
+
+</DirectionalLayout>

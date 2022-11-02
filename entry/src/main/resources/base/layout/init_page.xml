@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:background_element="$media:bg3"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:into"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:beautiful_button"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="进入游戏"
+        ohos:text_size="50vp"
+        ohos:padding="10vp"
+        />
+    <Button
+        ohos:id="$+id:explain"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="游戏说明"
+        ohos:text_size="50vp"
+        ohos:background_element="$graphic:beautiful_button"
+        ohos:padding="10vp"
+        ohos:top_margin="20vp"
+        />
+    <Button
+        ohos:id="$+id:personal"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="作者信息"
+        ohos:text_size="50vp"
+        ohos:background_element="$graphic:beautiful_button"
+        ohos:padding="10vp"
+        ohos:top_margin="20vp"
+        />
+</DirectionalLayout>
