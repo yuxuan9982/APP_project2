@@ -196,7 +196,7 @@ public class MainAbilitySlice extends AbilitySlice  {
                 e.printStackTrace();
             }
             ToastDialog td=new ToastDialog(this);
-            td.setText("成功！！！！！这个功能网上搜都搜不到，太难了哭死。。yx");
+            td.setText("成功！！！！！这个功能网上搜都搜不到，太难了哭死。。");
             td.show();
         }
     }
@@ -291,18 +291,19 @@ public class MainAbilitySlice extends AbilitySlice  {
     }
     public List<Integer> getImagelist(){
         List<Integer> lst = new ArrayList<>();
-        lst.add(ResourceTable.Media_a6);
-        lst.add(ResourceTable.Media_a7);
-        lst.add(ResourceTable.Media_a8);
-        lst.add(ResourceTable.Media_a9);
-        lst.add(ResourceTable.Media_a10);
-        lst.add(ResourceTable.Media_a11);
-        lst.add(ResourceTable.Media_p3);
         lst.add(ResourceTable.Media_a1);
         lst.add(ResourceTable.Media_a2);
         lst.add(ResourceTable.Media_a3);
         lst.add(ResourceTable.Media_a4);
         lst.add(ResourceTable.Media_a5);
+        lst.add(ResourceTable.Media_a6);
+        lst.add(ResourceTable.Media_a7);
+        lst.add(ResourceTable.Media_a8);
+        lst.add(ResourceTable.Media_a9);
+        lst.add(ResourceTable.Media_a10);
+//        lst.add(ResourceTable.Media_a11);
+        lst.add(ResourceTable.Media_p3);
+
         return lst;
     }
     @Override

@@ -225,8 +225,8 @@ public class DynamicPageSlice extends AbilitySlice implements Component.ClickedL
         d2.setAlignment(LayoutAlignment.HORIZONTAL_CENTER);
         Button ret= new Button(this);
         ret.setWidth(ComponentContainer.LayoutConfig.MATCH_CONTENT);
-        ret.setHeight(ComponentContainer.LayoutConfig.MATCH_CONTENT);ret.setText("返回");
-        ret.setTextSize(100);
+        ret.setHeight(ComponentContainer.LayoutConfig.MATCH_CONTENT);ret.setText("提前结束");
+        ret.setTextSize(50);
         ret.setClickedListener(new Component.ClickedListener() {
             @Override
             public void onClick(Component component) {

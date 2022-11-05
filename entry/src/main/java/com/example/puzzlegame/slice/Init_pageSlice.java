@@ -38,14 +38,15 @@ public class Init_pageSlice extends AbilitySlice {
             Text content= new Text(this);
             set_but_back(content,104,0,254);
             content.setTextSize(50);content.setMultipleLine(true);
-            content.setText("    在本游戏中，你需要先进入游戏，然后选择难度，必须选择了难度以后才能进行拼图，否则不能进行" +
+            content.setText("    华容道是中国经典游戏之一。\n" +
+                    "    在本游戏中，你需要先进入游戏，然后选择难度，必须选择了难度以后才能进行拼图，否则不能进行" +
                     "拼图。\n     你可以使用相册和手机拍照来得到你想要的照片，但是这个前提是你的手机必须具备相机功能。\n " +
                     "    难度有2X2到10X10的灵活选择，但是作者强烈建议您不要选择4X4以上的难度，因为这样的难度已经过于困难。\n" +
                     "    本游戏有两种动画效果，分别是旋转效果和平移效果，默认选择为平移效果。\n" +
                     "    本游戏并不保证一定有解，因此如果你能看出该排列没有解，可以直接放弃！\n" +
-                    "    由于作者使用的是directional layout，作者仅仅做好了在P40机型的界面，在非P40分辨率的机型上可能会出现视图" +
+                    "    由于作者使用的是directional layout，在某些机型上可能会出现视图" +
                     "方面的问题。\n" +
-                    "    此外，作者设计了一个很小的彩蛋，如果你不选择任何图片，那么问号也可以是图片。");
+                    "    此外，还有设计了一个很小的彩蛋，如果你不选择任何图片，那么问号也可以是图片。");
 
             sv.addComponent(content);
             dl.addComponent(sv);
